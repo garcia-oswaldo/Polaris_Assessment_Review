@@ -4,6 +4,7 @@
     <list default="true" id="5440f01a-9914-4338-9642-788ba95356c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samsc\IdeaProjects\Jasmin_101_Exercises" />
     </key>
@@ -85,7 +90,7 @@
       <workItem from="1623283962179" duration="3246000" />
       <workItem from="1623287677578" duration="11159000" />
       <workItem from="1623299017985" duration="28451000" />
-      <workItem from="1623334544649" duration="2315000" />
+      <workItem from="1623334544649" duration="8506000" />
     </task>
     <servers />
   </component>

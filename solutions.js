@@ -10,25 +10,29 @@ function onMarsRightNow(){
 }
 
 function isNegative(input) {
-    if (input > 0 || input === 0 || input ==="0") {
-        return false;
-    }
-    if (parseFloat(input) > 0 || parseFloat(input) < 0) {
-        return true;
-    }
+    let answer = parseFloat(input);
+    if (isNaN(answer)){
+   return NaN;
 }
+     return input <0;
+}
+
 
 
 function isPositive(input) {
-    return input > 0;
+    let answer = parseFloat(input);
+    if (isNaN(answer)){
+   return NaN;
+}
+     return input >0;
 }
 
 function plusTwo(input) {
-       return parseInt(input) + 2;
+       return parseFloat(input) + 2;
 }
 
 function addOne(input) {
-    return parseInt(input) + 1;
+    return parseFloat(input) + 1;
 }
 
 
@@ -42,7 +46,13 @@ function isNumeric(num) {
     }
 }
 
+ /*
+function isNumberic(value){
+ let answer= parseFloat(value);
+ return isNaN(answer);
+}
 
+  */
 
 function isNotNumeric(value){
     if(isNaN (value) || typeof value == 'boolean' || value == null || value == 'string'){
@@ -53,6 +63,15 @@ function isNotNumeric(value){
     }
     return false;
 }
+/*
+function isNotNumberic(vaalue);{
+ let answer= parseFloat(value);
+ return isNaN(answer):
+ }
+
+]
+ */
+
 
 function sayHello(strg) {
 
@@ -67,11 +86,28 @@ function sayHello(strg) {
 console.log(sayHello('ozzy'));
 console.log(sayHello());
 
-function isVowel(vowel) {
-if (typeof vowel === 'E' || 'e' || 'A'||'a'|| 'I' ||'i'|| 'O'|| 'o'|| 'U' || 'u'){
-    return true;
+function isVowel(value) {
+    if (typeof value !== 'string')
+        return false;
+    if (value.length !== 1)
+        return false;
+
+        value = value.toUpperCase();
+        switch (value) {
+            case"A":
+                return true;
+            case"E":
+                return true;
+            case"I":
+                return true;
+            case"O":
+                return true;
+            case "U":
+                return true;
+        }
+        return false;
 }
-  if (vowel =='') {
-    return false;
-  }
-    }
+
+
+
+
