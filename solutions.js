@@ -56,13 +56,16 @@ function isNotNumeric(value){
 
 function sayHello(strg) {
 
-    if (typeof strg == 'number' || typeof strg === 'boolean' || strg == null|| typeof strg === 'string') {
+    if (typeof strg == 'number' || typeof strg === 'boolean' || strg == null || strg ===''|| !isNaN(parseFloat(strg))  ) {
         return "Hello, world!";
     }
-    if (typeof strg === 'string') {
-        return "Hello," + strg + " !";
+    else {
+        return "Hello, " + strg + "!";
     }
 }
+
+console.log(sayHello('ozzy'));
+console.log(sayHello());
 
 function isVowel(vowel) {
 if (typeof vowel === 'E' || 'e' || 'A'||'a'|| 'I' ||'i'|| 'O'|| 'o'|| 'U' || 'u'){
